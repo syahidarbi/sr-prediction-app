@@ -1,0 +1,6 @@
+from google_drive_downloader import GoogleDriveDownloader as gdd
+
+file_id = "Project"  # Ganti dengan ID file di Google Drive
+gdd.download_file_from_google_drive(file_id=file_id,
+                                    dest_path="./sr_prediction_model.pkl",
+                                    unzip=False)
