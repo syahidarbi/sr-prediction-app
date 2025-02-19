@@ -31,7 +31,7 @@ if st.button("Predict"):
         "max_feed": max_feed,
         "sum_feed": sum_feed,
         "total_seed": total_seed,
-        "total_seed_type": total
+        "total_seed_type": total_seed_type,
         "last_size": last_size,
         "last_doc": last_doc
     }])
