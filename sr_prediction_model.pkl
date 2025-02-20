@@ -1,7 +1,7 @@
-git !pip install gdown
-git import gdown
+!pip install gdown
+import gdown
 
-git file_id = "1AVGpngMLjL5MS-f3IGs6o1j-pk7tHAT3"  # Ganti dengan ID file dari Google Drive
-git url = f"https://drive.google.com/uc?id={file_id}"
-git output = "sr_prediction_model.pkl"
-git gdown.download(url, output, quiet=False)
+file_id = "1AVGpngMLjL5MS-f3IGs6o1j-pk7tHAT3"  # Ganti dengan ID file dari Google Drive
+url = f"https://drive.google.com/uc?id={file_id}"
+output = "sr_prediction_model.pkl"
+gdown.download(url, output, quiet=False)
