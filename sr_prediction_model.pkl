@@ -1,7 +1,0 @@
-!pip install gdown
-import gdown
-
-file_id = "1AVGpngMLjL5MS-f3IGs6o1j-pk7tHAT3"  # Ganti dengan ID file dari Google Drive
-url = f"https://drive.google.com/uc?id={file_id}"
-output = "sr_prediction_model.pkl"
-gdown.download(url, output, quiet=False)
