@@ -18,12 +18,12 @@ model = joblib.load("sr_prediction_model.pkl")
 st.title("Survival Rate Prediction")
 
 # Input form
-max_feed = st.number_input("Max feed", min_value=1)
-sum_feed = st.number_input("Total feed input (kg)", min_value=1)
-total_seed = st.number_input("Total seed", min_value=1)
-total_seed_type = st.number_input("Total seed type", min_value=1)
-last_size = st.number_input("Size at sampling", min_value=1)
-last_doc = st.number_input("DoC at sampling", min_value=1)
+max_feed = st.number_input("Max feed (kg)", min_value=0)
+sum_feed = st.number_input("Total feed input (kg)", min_value=0)
+total_seed = st.number_input("Total seed", min_value=0)
+total_seed_type = st.number_input("Total seed type", min_value=0)
+last_size = st.number_input("Size at sampling", min_value=0)
+last_doc = st.number_input("DoC at sampling", min_value=0)
 
 # Tombol prediksi
 if st.button("Predict"):
