@@ -1,4 +1,3 @@
-!pip install gdown
 import gdown
 
 file_id = "1AVGpngMLjL5MS-f3IGs6o1j-pk7tHAT3"  # Ganti dengan ID file dari Google Drive
