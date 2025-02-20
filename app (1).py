@@ -15,7 +15,6 @@ url = f"https://drive.google.com/uc?id={file_id}"
 output = "sr_prediction_model.pkl"
 gdown.download(url, output, quiet=False)
 
-!pip install streamlit
 
 import streamlit as st
 import joblib
